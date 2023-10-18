@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone (Karan)</title>
+    <link rel="stylesheet" href="amazon.css">
+    <link rel="stylesheet" href="Slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="header">
+        <div class="navigation_bar">
+            <div class="navleft">
+                <img id="logoimg" src="Main image/amazon logo.png"  alt="" >
+                <div class="navleftaddress">
+                    <div class="addresslogo">
+                        <span  class="material-symbols-outlined" style="color: white; font-size: 20px; ">location_on</span>
+                    </div>
+                    <div class="navhello">
+                        <p id="p1">Hello</p>
+                        <span id="p2"><b>Select your address</b></span>
+                    </div>
+                </div>
+            </div>
+            <div class="search_bar">
+                <div class="serdropdown">
+                 <select >
+                    <option value="All Categories">All &nbsp;&nbsp; Categories</option>
+                    <option value="Amazon Device">Amazon Device</option>
+                    <option value="Amazon Fashion">Amazon Fashion</option>
+                    <option value="Amazon Fresh">Amazon Fresh</option>
+                 </select>
+                <input type="search" placeholder="Search Amazon.in">
+                <div class="search_baricon">
+                <i class="fa-solid fa-magnifying-glass" style="font-size: 20px; font-weight: ;"></i>
+                </div>
+            </div>
+        </div>
+        <div class="navright">
+            <div class="flagimg">
+                <img src="Main image/flag-India.jpg" alt="" style="width: 22px;">
+                <div class="flgdrop_down">
+                    <select>
+                        <option>EN</option>
+                        <option>HI</option>
+                        <option>TA</option>
+                    </select>
+                </div>
+            </div>
+            <div class="sign_in">
+                <span><p>Hello, sign in</p></span>
+                <div class="sign_indropdown">
+                    <select>
+                        <option >Account & Lists</option>
+                        <option >Login</option>
+                    </select>
+                </div>
+            </div>
+            <div class="R_order">
+                <span><p id="p1">Returns</p></span>
+                <span><p id="p2">& Orders</p></span>
+            </div>
+            <div class="cart">
+                <div class="cart_num">
+                    <p>0</p>
+                </div>
+                <div class="cart_img">
+                    <i class="fa-solid fa-cart-shopping" style="font-size: 29px;"></i>
+                    <div class="cart_name">
+                        <span>Cart</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navigation bar ends -->
+    <div class="navigation_bar2">
+        <div class="all_symbol">
+            <i class="fa-solid fa-bars"></i>
+            <span><p>All</p></span>
+        </div>
+
+        <div class="after_barfull">
+            <div class="barfull_item">
+                Amazon miniTV
+            </div>
+            <div class="barfull_item">
+                Sell
+            </div>
+            <div class="barfull_item">
+                Best Sellers
+            </div>
+            <div class="barfull_item">
+                Today's Deals
+            </div>
+            <div class="barfull_item">
+                Mobile
+            </div>
+            <div class="barfull_item">
+                New Releases
+            </div>
+            <div class="barfull_item">
+                Customer Service
+            </div>
+            <div class="barfull_item">
+                Electronics
+            </div>
+            <div class="prime_dropdown">
+                <select>
+                    <option>Prime</option>
+                </select>
+            </div>
+        </div>
+        <div class="last_dealnow">
+            Shop great deals now 
+        </div>
+    </div>
+    <div class="primemarquee_div">
+        
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="Main image/prime 1.png" style="width: 1370px; height: 253px;" >
+      <div class="text"></div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="Main image/prime 2.jpg" style="width:100% ; height: 251px" >
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="Main image/prime 3.jpeg" style="width:100% ; height: 251px" >
+      <div class="text"></div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="Main image/prime 4.jpg" style="width:100%; height: 251px ">
+      <div class="text"></div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <!-- <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div> -->
+    
+    <div class="main_shop_photo_1">  <!--This is full div in horizontal for 4 divs-->
+        <div class="shop_photo_div_first">
+            <div class="shop_photo_text">
+                <p>Appliances for your home | Up to 55% off</p>
+            </div>
+
+            <!-- This is secondary container where 1||2||3||4 images are inserted -->
+            <div class="shop_photo_first_insert_main"> <!--first box-->
+                <div class="photo_insert_for_1">
+                    <div class="photo_insert_for_1_div">
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/1.jpg" alt="">
+                    </div>
+                    
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/2.jpg" alt="" >
+                    </div>
+                </div>
+                    <div class="photo_insert_caption">
+                        <div class="row_1_cation_first">
+                            <p>Cleaning accessories</p>
+                        </div> 
+                        <div class="row_1_cation_second">
+                            <p>Air conditioner</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo_insert_for_2">
+                    <div class="photo_insert_for_1_div">
+                    <div class="shop_photo_first_insert">
+                            <img class="images_class" src="Amazon image/44.jpeg" alt="">
+                    </div>
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/7.jpeg" alt="">
+                    </div>
+                </div>
+                    <div class="photo_insert_caption">
+                        <div class="row_1_cation_first">
+                            <p>Kitchen</p>
+                        </div> 
+                        <div class="row_1_cation_second">
+                            <p>Smartphone</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="seemore_a_tag">
+                    <a href="#">Explore all</a>
+                </div>
+            </div>
+        </div> <!--first box end here-->
+
+        <!-- second box  -->
+        <div class="shop_photo_div">
+            <div class="shop_photo_text">
+                <p>Prime exclusive offers | Travel tickets</p>
+            </div>
+            <div class="shop_photo_first_insert_main"> 
+                <div class="photo_insert_for_1">
+                    <div class="photo_insert_for_1_div">
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/3.jpeg" alt="">
+                    </div>
+                    
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/4.jpeg" alt="">
+
+                    </div>
+                </div>
+                    <div class="photo_insert_caption">
+                        <div class="row_1_cation_first">
+                            <p>Cooking</p>
+                        </div> 
+                        <div class="row_1_cation_second">
+                            <p>Sunglasses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo_insert_for_2">
+                    <div class="photo_insert_for_1_div">
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/9.jpeg" alt="">
+                    </div>
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/11.jpg" alt="">
+                    </div>
+                </div>
+                    <div class="photo_insert_caption">
+                        <div class="row_1_cation_first">
+                            <p>Phones</p>
+                        </div> 
+                        <div class="row_1_cation_second">
+                            <p>IQOO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="seemore_a_tag">
+                    <a href="#">See more</a>
+                </div>
+            </div>
+        </div>
+        <!-- second box End here  -->
+
+        <!--Third box-->
+        <div class="shop_photo_div">
+            <div class="shop_photo_text">
+                <p>Up to 50% off | Monitor blood sugar</p>
+            </div>
+            <div class="shop_photo_first_insert_main"> 
+                <div class="photo_insert_for_1">
+                    <div class="photo_insert_for_1_div">
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/13.jpeg" alt="">
+                    </div>
+                    
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/14.jpg" alt="">
+                    </div>
+                </div>
+                    <div class="photo_insert_caption">
+                        <div class="row_1_cation_first">
+                            <p>Women Wears</p>
+                        </div> 
+                        <div class="row_1_cation_second">
+                            <p>Air Conditioner</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo_insert_for_2">
+                    <div class="photo_insert_for_1_div">
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/15.jpg" alt="">
+                    </div>
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/16.jpg" alt="">
+                    </div>
+                </div>
+                    <div class="photo_insert_caption">
+                        <div class="row_1_cation_first">
+                            <p>MakeUp</p>
+                        </div> 
+                        <div class="row_1_cation_second">
+                            <p>Semi Automatic</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="seemore_a_tag">
+                    <a href="#">See more</a>
+                </div>
+            </div>
+        </div>
+        <!--Third box end-->
+
+        <!--Forth Last seperate box-->
+        <div class="shop_photo_div_seprate">
+           <div class="div_seprate1">
+            <div class="div_seprate_inside1">
+                <p>Sign in for your best experience</p>
+            </div>
+            <div class="div_seprete_inside2">
+                <a href="">Sign in securely</a>
+                </div>
+           </div>
+           <div class="div_seprate2">
+            <img class="div_seprate2_image" src="Amazon image/57.jpg" alt="">
+           </div>
+        </div>
+    </div>
+    <!--Forth Last seperate box End Here-->
+
+
+    <!--Second main horizontal div-->
+
+    <!--first box-->
+    <div class="main_shop_photo_2">  <!--This is full div in horizontal for 4 divs-->
+        <div class="shop_photo_div_first">
+            <div class="shop_photo_text">
+                <p>Revamp your home in style</p>
+            </div>
+
+            <!-- This is secondary container where 1||2||3||4 images are inserted -->
+            <div class="shop_photo_first_insert_main"> 
+                <div class="photo_insert_for_1">
+                    <div class="photo_insert_for_1_div">
+                    <div class="shop_photo_first_insert">
+                                <img class="images_class" src="Amazon image/20.jpg" alt="">
+                    </div>
+                    
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/12.jpeg" alt="">
+                    </div>
+                </div>
+                    <div class="photo_insert_caption">
+                        <div class="row_1_cation_first">
+                            <p>Jars</p>
+                        </div> 
+                        <div class="row_1_cation_second">
+                            <p>Suit & Saree</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo_insert_for_2">
+                    <div class="photo_insert_for_1_div">
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/24.jpg" alt="">
+                    </div>
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/25.jpg" alt="">
+                    </div>
+                </div>
+                    <div class="photo_insert_caption">
+                        <div class="row_1_cation_first">
+                            <p>Covers</p>
+                        </div> 
+                        <div class="row_1_cation_second">
+                            <p>Samsung S22 Ultra</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="seemore_a_tag">
+                    <a href="#">See more</a>
+                </div>
+            </div>
+        </div> <!--first box end here-->
+
+        <!-- second box  -->
+        <div class="shop_photo_div">
+            <div class="shop_photo_text">
+                <p>Up to 60% off | Trending new launches</p>
+            </div>
+            <div class="shop_photo_first_insert_main"> 
+                <div class="photo_insert_for_1">
+                    <div class="photo_insert_for_1_div">
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/26.jpg" alt="">
+                    </div>
+                    
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/27.jpg" alt="">
+                    </div>
+                </div>
+                    <div class="photo_insert_caption">
+                        <div class="row_1_cation_first">
+                            <p>Blanket</p>
+                        </div> 
+                        <div class="row_1_cation_second">
+                            <p>Almira</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo_insert_for_2">
+                    <div class="photo_insert_for_1_div">
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/17.jpg" alt="">
+                    </div>
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/29.jpg" alt="">
+                    </div>
+                </div>
+                    <div class="photo_insert_caption">
+                        <div class="row_1_cation_first">
+                            <p>Gadgets</p>
+                        </div> 
+                        <div class="row_1_cation_second">
+                            <p>OnePlus</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="seemore_a_tag">
+                    <a href="#">See more</a>
+                </div>
+            </div>
+        </div>
+        <!-- second box End here  -->
+
+        <!--Third box-->
+        <div class="shop_photo_div">
+            <div class="shop_photo_text">
+                <p>Up to 50% off | Monitor blood sugar</p>
+            </div>
+            <div class="shop_photo_first_insert_main"> 
+                <div class="photo_insert_for_1">
+                    <div class="photo_insert_for_1_div">
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/32.jpg" alt="">
+                    </div>
+                    
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/34.jpg" alt="">
+                    </div>
+                </div>
+                    <div class="photo_insert_caption">
+                        <div class="row_1_cation_first">
+                            <p>Oppo</p>
+                        </div> 
+                        <div class="row_1_cation_second">
+                            <p>Bags</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo_insert_for_2">
+                    <div class="photo_insert_for_1_div">
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/36.jpg" alt="">
+                    </div>
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/37.jpeg" alt="">
+                    </div>
+                </div>
+                    <div class="photo_insert_caption">
+                        <div class="row_1_cation_first">
+                            <p>FireTv Stick</p>
+                        </div> 
+                        <div class="row_1_cation_second">
+                            <p>Amazon echo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="seemore_a_tag">
+                    <a href="#">See more</a>
+                </div>
+            </div>
+        </div>
+        <!--Third box end-->
+
+
+        <!--Forth Box Start-->
+        <div class="shop_photo_div_new">
+            <div class="shop_photo_text">
+                <p>Up to 50% off | Monitor blood sugar</p>
+            </div>
+            <div class="shop_photo_first_insert_main"> 
+                <div class="photo_insert_for_1">
+                    <div class="photo_insert_for_1_div">
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/38.jpeg" alt="">
+                    </div>
+                    
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/39.gif" alt="">
+                    </div>
+                </div>
+                    <div class="photo_insert_caption">
+                        <div class="row_1_cation_first">
+                            <p>Mobile accessories</p>
+                        </div> 
+                        <div class="row_1_cation_second">
+                            <p>Boat Original</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo_insert_for_2">
+                    <div class="photo_insert_for_1_div">
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/40.jpg" alt="">
+                    </div>
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/42.jpeg" alt="">
+                    </div>
+                </div>
+                    <div class="photo_insert_caption">
+                        <div class="row_1_cation_first">
+                            <p>Kitchen</p>
+                        </div> 
+                        <div class="row_1_cation_second">
+                            <p>Regular Use</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="seemore_a_tag">
+                    <a href="#">See more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!--Forth box  end-->
+
+ 
+<!--Slide Divbox for blockbusterdeals Start-->
+<div class="forslide_marge_div">
+    <div class="forslide_marge_caption_main">
+        <div class="forslide_marge_caption">
+            Blockbuster deals
+        </div>
+        <div class="seemore_a_tag_forslide_div">
+            <a href="#">See all offers</a>
+        </div>
+    </div>
+    <div class="forslide_marge_div_forcontent">
+        <div id="slider">
+            <img src="Amazon image2/1.png" alt="">
+            <img src="Amazon image2/2.png" alt="">
+            <img src="Amazon image2/3.png" alt="">
+            <img src="Amazon image2/4.png" alt="">
+            <img src="Amazon image2/5.png" alt="">
+            <img src="Amazon image2/6.png" alt="">
+            <img src="Amazon image2/7.png" alt="">
+            <img src="Amazon image2/9.png" alt="">
+            <img src="Amazon image2/10.png" alt="">
+            <img src="Amazon image2/11.png" alt="">
+            <img src="Amazon image2/12.png" alt="">
+            <img src="Amazon image2/13.png" alt="">
+            <img src="Amazon image2/14.png" alt="">
+            <img src="Amazon image2/15.png" alt="">
+            <img src="Amazon image2/16.png" alt="">
+            <img src="Amazon image2/17.png" alt="">
+            <img src="Amazon image2/18.png" alt="">
+            <img src="Amazon image2/19.png" alt="">
+            <img src="Amazon image2/20.png" alt="">
+            <img src="Amazon image2/21.png" alt="">
+            <img src="Amazon image2/22.png" alt="">
+            <img src="Amazon image2/23.png" alt="">
+            <img src="Amazon image2/24.png" alt="">
+            <img src="Amazon image2/25.png" alt="">
+            <img src="Amazon image2/26.png" alt="">
+            <img src="Amazon image2/27.png" alt="">
+            <img src="Amazon image2/28.png" alt="">
+            <img src="Amazon image2/13.png" alt="">
+            <img src="Amazon image2/14.png" alt="">
+            <img src="Amazon image2/15.png" alt="">
+            <img src="Amazon image2/16.png" alt="">
+            <img src="Amazon image2/17.png" alt="">
+            <img src="Amazon image2/18.png" alt="">
+        </div>
+          <div class="indicators">
+            <span id="btn1" class="active"></span>
+            <span id="btn2"></span>
+            <span id="btn3"></span>
+            <span id="btn4"></span>
+          </div>
+      </div>
+    </div>
+    <!--Slide Divbox End Here-->        
+
+        
+<!--Slide Divbox Start-->  <!--Up to 50% off | Women's clothing for all occasions-->
+<div class="forslide_marge_div">
+    <div class="forslide_marge_caption_main">
+        <div class="forslide_marge_caption">
+            Up to 50% off | Women's clothing for all occasions
+        </div>
+        <div class="seemore_a_tag_forslide_div">
+            <a href="#">See all offers</a>
+        </div>
+    </div>
+    <div class="forslide_marge_div_forcontent">
+        <div id="slider">
+            <img src="Amazon image2/10.png" alt="">
+            <img src="Amazon image2/11.png" alt="">
+            <img src="Amazon image2/12.png" alt="">
+            <img src="Amazon image2/13.png" alt="">
+            <img src="Amazon image2/14.png" alt="">
+            <img src="Amazon image2/15.png" alt="">
+            <img src="Amazon image2/16.png" alt="">
+            <img src="Amazon image2/17.png" alt="">
+            <img src="Amazon image2/18.png" alt="">
+            <img src="Amazon image2/19.png" alt="">
+            <img src="Amazon image2/20.png" alt="">
+            <img src="Amazon image2/21.png" alt="">
+            <img src="Amazon image2/22.png" alt="">
+            <img src="Amazon image2/1.png" alt="">
+            <img src="Amazon image2/2.png" alt="">
+            <img src="Amazon image2/3.png" alt="">
+            <img src="Amazon image2/7.png" alt="">
+            <img src="Amazon image2/9.png" alt="">
+            <img src="Amazon image2/4.png" alt="">
+            <img src="Amazon image2/5.png" alt="">
+            <img src="Amazon image2/6.png" alt="">
+            <img src="Amazon image2/23.png" alt="">
+            <img src="Amazon image2/24.png" alt="">
+            <img src="Amazon image2/25.png" alt="">
+            <img src="Amazon image2/26.png" alt="">
+            <img src="Amazon image2/27.png" alt="">
+            <img src="Amazon image2/28.png" alt="">
+            <img src="Amazon image2/13.png" alt="">
+            <img src="Amazon image2/14.png" alt="">
+            <img src="Amazon image2/15.png" alt="">
+            <img src="Amazon image2/16.png" alt="">
+            <img src="Amazon image2/17.png" alt="">
+            <img src="Amazon image2/18.png" alt="">
+        </div>
+          <div class="indicators">
+            <span id="btn1" class="active"></span>
+            <span id="btn2"></span>
+            <span id="btn3"></span>
+            <span id="btn4"></span>
+          </div>
+      </div>
+    </div>
+    <!--Slide Divbox End Here-->
+
+<!--Third main horizontal div End here -->
+
+    <!--first box-->
+    <div class="main_shop_photo_2">  <!--This is full div in horizontal for 4 divs-->
+        <div class="shop_photo_div_first">
+            <div class="shop_photo_text">
+                <p>Up to 70% off | Clearance store</p>
+            </div>
+
+            <!-- This is secondary container where 1||2||3||4 images are inserted -->
+            <div class="shop_photo_first_insert_main_bigphoto"> 
+                <img class="shop_photo_first_insert_main_bigphotodmn" src="Amazon image/59.jpg" alt="">
+            </div>
+            <div class="seemore_a_tag">
+                <a href="#">See more</a>
+            </div>
+        </div> <!--first box end here-->
+
+        <!-- second box  -->
+        <div class="shop_photo_div">
+            <div class="shop_photo_text">
+                <p>Prime exclusive offers | Travel tickets</p>
+            </div>
+            <div class="shop_photo_first_insert_main"> 
+                <div class="photo_insert_for_1">
+                    <div class="photo_insert_for_1_div">
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/15.jpg" alt="">
+                    </div>
+                    
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/16.jpg" alt="">
+                    </div>
+                </div>
+                    <div class="photo_insert_caption">
+                        <div class="row_1_cation_first">
+                            <p>Cleaning accessories</p>
+                        </div> 
+                        <div class="row_1_cation_second">
+                            <p>hii</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo_insert_for_2">
+                    <div class="photo_insert_for_1_div">
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/17.jpg" alt="">
+                    </div>
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/18.jpg" alt="">
+                    </div>
+                </div>
+                    <div class="photo_insert_caption">
+                        <div class="row_1_cation_first">
+                            <p>Cleaning accessories</p>
+                        </div> 
+                        <div class="row_1_cation_second">
+                            <p>hii</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="seemore_a_tag">
+                    <a href="#">See more</a>
+                </div>
+            </div>
+        </div>
+        <!-- second box End here  -->
+
+        <!--Third box-->
+        <div class="shop_photo_div">
+            <div class="shop_photo_text">
+                <p>Up to 50% off | Monitor blood sugar</p>
+            </div>
+            <div class="shop_photo_first_insert_main"> 
+                <div class="photo_insert_for_1">
+                    <div class="photo_insert_for_1_div">
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/19.jpg" alt="">
+                    </div>
+                    
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/20.jpg" alt="">
+                    </div>
+                </div>
+                    <div class="photo_insert_caption">
+                        <div class="row_1_cation_first">
+                            <p>Cleaning accessories</p>
+                        </div> 
+                        <div class="row_1_cation_second">
+                            <p>hii</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo_insert_for_2">
+                    <div class="photo_insert_for_1_div">
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/21.jpg" alt="">
+                    </div>
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/23.jpg" alt="">
+                    </div>
+                </div>
+                    <div class="photo_insert_caption">
+                        <div class="row_1_cation_first">
+                            <p>Cleaning accessories</p>
+                        </div> 
+                        <div class="row_1_cation_second">
+                            <p>hii</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="seemore_a_tag">
+                    <a href="#">See more</a>
+                </div>
+            </div>
+        </div>
+        <!--Third box end-->
+
+
+        <!--Forth Box Start-->
+        <div class="shop_photo_div_new">
+            <div class="shop_photo_text">
+                <p>Up to 50% off | Monitor blood sugar</p>
+            </div>
+            <div class="shop_photo_first_insert_main"> 
+                <div class="photo_insert_for_1">
+                    <div class="photo_insert_for_1_div">
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/24.jpg" alt="">
+                    </div>
+                    
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/25.jpg" alt="">
+                    </div>
+                </div>
+                    <div class="photo_insert_caption">
+                        <div class="row_1_cation_first">
+                            <p>Cleaning accessories</p>
+                        </div> 
+                        <div class="row_1_cation_second">
+                            <p>hii</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo_insert_for_2">
+                    <div class="photo_insert_for_1_div">
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/26.jpg" alt="">
+                    </div>
+                    <div class="shop_photo_first_insert">
+                        <img class="images_class" src="Amazon image/27.jpg" alt="">
+                    </div>
+                </div>
+                    <div class="photo_insert_caption">
+                        <div class="row_1_cation_first">
+                            <p>Cleaning accessories</p>
+                        </div> 
+                        <div class="row_1_cation_second">
+                            <p>hii</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="seemore_a_tag">
+                    <a href="#">See more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!--Forth box  end-->
+        
+<!--Third main horizontal div End here -->
+
+<!--Slide Divbox Start-->
+<div class="forslide_marge_div">
+    <div class="forslide_marge_caption_main">
+        <div class="forslide_marge_caption">
+            Up to 50% off | Women's clothing for all occasions
+        </div>
+        <div class="seemore_a_tag_forslide_div">
+            <a href="#">See all offers</a>
+        </div>
+    </div>
+    <div class="forslide_marge_div_forcontent">
+        <div id="slider">
+            <img src="Amazon image2/1.png" alt="">
+            <img src="Amazon image2/2.png" alt="">
+            <img src="Amazon image2/3.png" alt="">
+            <img src="Amazon image2/4.png" alt="">
+            <img src="Amazon image2/5.png" alt="">
+            <img src="Amazon image2/6.png" alt="">
+            <img src="Amazon image2/7.png" alt="">
+            <img src="Amazon image2/9.png" alt="">
+            <img src="Amazon image2/10.png" alt="">
+            <img src="Amazon image2/11.png" alt="">
+            <img src="Amazon image2/12.png" alt="">
+            <img src="Amazon image2/13.png" alt="">
+            <img src="Amazon image2/14.png" alt="">
+            <img src="Amazon image2/15.png" alt="">
+            <img src="Amazon image2/16.png" alt="">
+            <img src="Amazon image2/17.png" alt="">
+            <img src="Amazon image2/18.png" alt="">
+            <img src="Amazon image2/19.png" alt="">
+            <img src="Amazon image2/20.png" alt="">
+            <img src="Amazon image2/21.png" alt="">
+            <img src="Amazon image2/22.png" alt="">
+            <img src="Amazon image2/23.png" alt="">
+            <img src="Amazon image2/24.png" alt="">
+            <img src="Amazon image2/25.png" alt="">
+            <img src="Amazon image2/26.png" alt="">
+            <img src="Amazon image2/27.png" alt="">
+            <img src="Amazon image2/28.png" alt="">
+            <img src="Amazon image2/13.png" alt="">
+            <img src="Amazon image2/14.png" alt="">
+            <img src="Amazon image2/15.png" alt="">
+            <img src="Amazon image2/16.png" alt="">
+            <img src="Amazon image2/17.png" alt="">
+            <img src="Amazon image2/18.png" alt="">
+        </div>
+          <div class="indicators">
+            <span id="btn1" class="active"></span>
+            <span id="btn2"></span>
+            <span id="btn3"></span>
+            <span id="btn4"></span>
+          </div>
+      </div>
+    </div>
+    <!--Slide Divbox End Here-->
+
+</div>
+</div>
+
+
+
+<Footer>
+    <div class="ftop">
+        <div class="ftop_text">
+            Back to top
+        </div>
+    </div>
+
+    <div class="fm_for_subdiv">
+                <div class="fm_for_subdiv_1">
+                    <div class="fm_for_subdiv_inr1">
+                        Get to Know Us 
+                    </div>
+                    <div class="fm_for_subdiv_inr2">
+                        <p>About us</p>
+                        <p>Careers</p>
+                        <p>Press Releases</p>
+                        <p>Amazon Science</p>
+                    </div>
+                </div>
+
+                <div class="fm_for_subdiv_2">
+                    <div class="fm_for_subdiv_inr1">
+                        Connect with Us
+                    </div>
+                    <div class="fm_for_subdiv_inr2">
+                        <p>Facebook</p>
+                        <p>Twitter</p>
+                        <p>Instagram</p>
+                    </div>
+                </div>
+
+                <div class="fm_for_subdiv_3">
+                    <div class="fm_for_subdiv_inr1">
+                        Make Money with Karan 
+                    </div>
+                    <div class="fm_for_subdiv_inr2">
+                        <p>Sell on Amazon</p>
+                        <p>Sell under Amazon Accelerator</p>
+                        <p>Protect and Build your Brand</p>
+                        <p>Amazon Global Selling </p>
+                        <p>Become An Affiliate</p>
+                        <p>Fulfilment by Amazon</p>
+                        <p>Advertise Your Products</p>
+                        <p>Amazon Pay on Merchants</p>
+                    </div>
+                </div>
+
+                <div class="fm_for_subdiv_4">
+                    <div class="fm_for_subdiv_inr1">
+                        Let Us Help You
+                    </div>
+                    <div class="fm_for_subdiv_inr2">
+                        <p>COVID-19 and Amazon</p>
+                        <p>Your Account</p>
+                        <p>Returns Center</p>
+                        <p>100% Purchase Protection</p>
+                        <p>Amazon App Download</p>
+                        <p>Help</p>
+                    </div>
+                </div>
+    </div>
+
+    <div class="fm_lang">
+        <div class="fm_lang_sub">
+            <div class="fm_lang_sub1">
+                <img src="Main image/amazon logo - Copy.png" alt="">
+            </div>
+
+            <div class="fm_lang_sub2">
+                <i class="fa-solid fa-globe" style="color: white; background: transparent; margin-top: 4px;"></i>
+                <select name="" id="" >
+                    <option value="">English</option>
+                    <option value="">Hindi</option>
+                    <option value="">Tamil</option>
+                    <option value="">Malyanam</option>
+                    <option value="">Chinese</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="fm_lan_sub_2"> 
+            <div class="fm_lan_sub_2_1">
+                <p>Australia</p>
+                <p>Brazil</p>
+                <p>Canada</p>
+                <p>China</p>
+                <p>France</p>
+                <p>Germany</p>
+                <p>Italy</p>
+                <p>Japan</p>
+                <p>Mexico</p>
+                <p>Netherlands</p>
+                <p>Poland</p>
+                <p>Singapore</p>
+                <p>Spain</p>
+                <p>Turkey</p>
+                <p>United Arab Emirates</p>
+            </div>
+
+            <div class="fm_lan_sub_2_2">
+                <p>United Kingdom</p>
+                <p>United States</p>
+            </div>
+                
+        </div>
+    </div>
+
+    <div class="fm_last">
+           <div class="fm_last_subdiv">
+                <div class="fm_last_subdiv_1">
+                    <div class="fm_last_subdiv_inr1">
+                        AbeBooks
+                    </div>
+                    <div class="fm_last_subdiv_inr2">
+                        <p>Books, arts</p>
+                        <p>& collectiles</p>
+                    </div>
+                </div>
+
+                <div class="fm_last_subdiv_2">
+                    <div class="fm_last_subdiv_inr1">
+                        Amazon Web Services
+                    </div>
+                    <div class="fm_last_subdiv_inr2">
+                        <p>Scalable</p>
+                        <p>Computing Services</p>
+                    </div>
+                </div>
+
+                <div class="fm_last_subdiv_3">
+                    <div class="fm_last_subdiv_inr1">
+                        Audible
+                    </div>
+                    <div class="fm_last_subdiv_inr2">
+                        <p>Download</p>
+                        <p>Audio Books</p>
+                    </div>
+                </div>
+
+                <div class="fm_last_subdiv_4">
+                    <div class="fm_last_subdiv_inr1">
+                        DPReview 
+                    </div>
+                    <div class="fm_last_subdiv_inr2">
+                        <p>Digital</p>
+                        <p>Photography</p>
+                    </div>
+                </div>
+
+                <div class="fm_last_subdiv_5">
+                    <div class="fm_last_subdiv_inr1">
+                        IMDb
+                    </div>
+                    <div class="fm_last_subdiv_inr2">
+                        <p>Movies, TV</p>
+                        <p>& Celebrities</p>
+                    </div>
+                </div>
+         </div>
+
+         <div class="fm_last_subdiv_sect_2">
+            <div class="fm_last_subdiv_1">
+                <div class="fm_last_subdiv_inr1">
+                    Shopbop
+                </div>
+                <div class="fm_last_subdiv_inr2">
+                    <p>Designer</p>
+                    <p>Fashion Brands</p> 
+                </div>
+            </div>
+
+            <div class="fm_last_subdiv_2p2">
+                <div class="fm_last_subdiv_inr1">
+                    Amazon Business
+                </div>
+                <div class="fm_last_subdiv_inr2">
+                    <p>Everything for</p>
+                    <p>your Business</p>
+                </div>
+            </div>
+
+            <div class="fm_last_subdiv_3p2">
+                <div class="fm_last_subdiv_inr1">
+                    Prime Now
+                </div>
+                <div class="fm_last_subdiv_inr2">
+                    <p>2-Hour Delivery</p>
+                    <p>on Everyday Items</p>
+                </div>
+            </div>
+
+            <div class="fm_last_subdiv_4p2">
+                <div class="fm_last_subdiv_inr1">
+                    Amazon Prime Music  
+                </div>
+                <div class="fm_last_subdiv_inr2">
+                    <p>100 million songs, ad-free</p>
+                    <p>Over 15 million podcast episodes</p>
+                </div>
+            </div>
+
+     </div>
+     
+     <div class="tem_and_con">
+        <div class="tem_con_inr1">
+            <p>Condition of Use & Sale</p>
+            <p>Privacy Notice</p>
+            <p>Interest-Based ads</p>
+        </div>
+
+        <div class="tem_con_inr2">
+            <p>&copy; 1996-2023, Amazon.com,Inc.or its affiliates</p>
+        </div>
+     </div>
+    </div>
+</Footer>
+
+
+
+
+
+<!-- HTML END HERE -->
+
+
+<!--javascript Link-->
+<script src="Top slider.js"></script>
+<script src="Slider2.js"></script>
+<!--End javascript -->
+    </div>
+</body>
+</html>

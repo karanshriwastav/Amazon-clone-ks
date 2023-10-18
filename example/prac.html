@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="prac.css">
+</head>
+<body>
+  <div class="slider-box">
+      <div id="slider">
+        <img src="Amazon image2/3.png" alt="">
+        <img src="Amazon image2/4.png" alt="">
+        <img src="Amazon image2/5.png" alt="">
+        <img src="Amazon image2/6.png" alt="">
+        <img src="Amazon image2/7.png" alt="">
+        <img src="Amazon image2/9.png" alt="">
+        <img src="Amazon image2/10.png" alt="">
+        <img src="Amazon image2/11.png" alt="">
+        <img src="Amazon image2/12.png" alt="">
+        <img src="Amazon image2/13.png" alt="">
+        <img src="Amazon image2/14.png" alt="">
+        <img src="Amazon image2/15.png" alt="">
+        <img src="Amazon image2/16.png" alt="">
+        <img src="Amazon image2/17.png" alt="">
+        <img src="Amazon image2/18.png" alt="">
+        <img src="Amazon image2/19.png" alt="">
+        <img src="Amazon image2/20.png" alt="">
+        <img src="Amazon image2/21.png" alt="">
+        <img src="Amazon image2/22.png" alt="">
+        <img src="Amazon image2/23.png" alt="">
+        <img src="Amazon image2/24.png" alt="">
+        <img src="Amazon image2/25.png" alt="">
+        <img src="Amazon image2/26.png" alt="">
+        <img src="Amazon image2/27.png" alt="">
+      </div>
+      <div class="indicators">
+        <span id="btn1" class="active"></span>
+        <span id="btn2"></span>
+        <span id="btn3"></span>
+        <span id="btn4"></span>
+      </div>
+  </div>
+
+
+
+  <!--second-->
+    
+  <div class="slider-box2">
+      <div id="sliders">
+        <img src="Amazon image2/3.png" alt="">
+        <img src="Amazon image2/4.png" alt="">
+        <img src="Amazon image2/5.png" alt="">
+        <img src="Amazon image2/6.png" alt="">
+        <img src="Amazon image2/7.png" alt="">
+        <img src="Amazon image2/9.png" alt="">
+        <img src="Amazon image2/10.png" alt="">
+        <img src="Amazon image2/11.png" alt="">
+        <img src="Amazon image2/12.png" alt="">
+        <img src="Amazon image2/13.png" alt="">
+        <img src="Amazon image2/14.png" alt="">
+        <img src="Amazon image2/15.png" alt="">
+        <img src="Amazon image2/16.png" alt="">
+        <img src="Amazon image2/17.png" alt="">
+        <img src="Amazon image2/18.png" alt="">
+        <img src="Amazon image2/19.png" alt="">
+        <img src="Amazon image2/20.png" alt="">
+        <img src="Amazon image2/21.png" alt="">
+        <img src="Amazon image2/22.png" alt="">
+        <img src="Amazon image2/23.png" alt="">
+        <img src="Amazon image2/24.png" alt="">
+        <img src="Amazon image2/25.png" alt="">
+        <img src="Amazon image2/26.png" alt="">
+        <img src="Amazon image2/27.png" alt="">
+      </div>
+      <div class="indicators2">
+        <span id="btn5" class="actives"></span>
+        <span id="btn6"></span>
+        <span id="btn7"></span>
+        <span id="btn8"></span>
+      </div>
+  </div>
+
+  <script>
+    var slide = document.getElementById('slider');
+    var btn1 = document.getElementById('btn1');
+    var btn2 = document.getElementById('btn2');
+    var btn3 = document.getElementById('btn3');
+    var btn4 = document.getElementById('btn4');
+
+    btn1.onclick = function(){
+      slide.style.transform = "translatex(0px)";
+      btn1.classList.add("active");
+      btn2.classList.remove("active");
+      btn3.classList.remove("active");
+      btn4.classList.remove("active");
+    }
+    
+    btn2.onclick = function(){
+      slide.style.transform = "translatex(-100%)";
+      btn1.classList.remove("active");
+      btn2.classList.add("active");
+      btn3.classList.remove("active");
+      btn4.classList.remove("active");
+    }
+    btn3.onclick = function(){
+      slide.style.transform = "translatex(-200%)";
+      btn1.classList.remove("active");
+      btn2.classList.remove("active");
+      btn3.classList.add("active");
+      btn4.classList.remove("active");
+    }
+    btn4.onclick = function(){
+      slide.style.transform = "translatex(-300%)";
+      btn1.classList.remove("active");
+      btn2.classList.remove("active");
+      btn3.classList.remove("active");
+      btn4.classList.add("active");
+    }
+  </script>
+
+<!-- second -->
+
+<script src="prac.js"></script>
+</script>
+</body>
+</html>
